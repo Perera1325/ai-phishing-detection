@@ -55,3 +55,80 @@ OUtput :
 - Modular design for easy future extensions
 
 
+## Project Overview
+
+This project is an AI-powered phishing detection system capable of identifying
+both phishing emails and malicious URLs. It uses Machine Learning and Natural
+Language Processing techniques to analyze user inputs and classify them as
+SAFE or PHISHING.
+
+The system is designed as a command-line automation tool and demonstrates
+real-world cybersecurity use cases.
+
+
+
+## System Architecture
+
+1. Dataset Collection
+   - Real-world phishing datasets collected from Kaggle
+   - Manual labeling and preprocessing
+
+2. Email Phishing Detection
+   - Text cleaning and normalization
+   - TF-IDF feature extraction
+   - Machine Learning classification
+
+3. URL Phishing Detection
+   - URL lexical feature extraction
+   - Random Forest classifier
+
+4. Automation Layer
+   - Command-line interface
+   - Real-time phishing prediction
+
+
+
+
+## How to Run
+
+1. Clone the repository
+```bash
+git clone https://github.com/perera1325/ai-phishing-detection.git
+cd ai-phishing-detection
+
+
+
+---
+
+### 🛠 Technologies Used
+```markdown
+## Technologies Used
+
+- Python
+- Scikit-learn
+- NLP (TF-IDF)
+- Pandas, NumPy
+- Random Forest, Logistic Regression
+- Kali Linux
+- Git & GitHub
+
+
+
+## Key Learning Outcomes
+
+- Built an end-to-end cybersecurity ML project
+- Applied NLP techniques for text classification
+- Designed ML pipelines for phishing detection
+- Integrated multiple ML models into one system
+- Gained hands-on experience with GitHub and Linux
+
+
+
+
+## Future Improvements
+
+- Web-based interface using Flask or FastAPI
+- Deep Learning models (LSTM / BERT)
+- Real-time email inbox integration
+- Browser extension for URL detection
+- Model performance optimization
